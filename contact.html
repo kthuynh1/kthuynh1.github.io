@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>csce project part 1 contact me</title>
+	<!--katie huynh; csce 102-014-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="content">
+	<header>
+		<h2>katie huynh</h2>
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="index.html">home</a></li>
+			<li><a href="quiz.html">quiz</a></li>
+			<li><a href="contact.html">contact me</a></li>
+		</ul>
+	</nav>
+	<main id="contact">
+	<h3>directions</h3>
+			<p><strong>my house</strong></p>
+			<p>1322 Greene St,<br>Columbia, SC 29208</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.900857277071!2d-81.03024684886884!3d33.99508022809186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bad6fdbeb413%3A0x180c4787052f9ace!2s1322%20Greene%20St%2C%20Columbia%2C%20SC%2029208!5e0!3m2!1sen!2sus!4v1678840000366!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<h2> contact form </h2>
+		<form action="https://api.web3forms.com/submit" method="POST"> 
+		<input type="hidden" name="access_key" value="82960886-33de-4db2-a1be-78445115e49b">
+		<p>name: <input type="text" name="name" required> </p>
+		<p>email: <input type="email" name="email" required> </p>
+		<p>message: <textarea name="message" required></textarea></p>
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+    <button type="submit">Submit Form</button>
+
+</form>
+	</main>
+	<footer>
+	</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+/*katie huynh csce 102-014 project*/
+body{
+	background:#C0B6BE;
+	font-family:monospace;
+}
+header, nav, footer{
+	background:#D8AEB1;
+	text-align:center;
+	display:block;
+	padding:1px;
+}
+main{
+	background:#F0D7D4;
+	padding:5px;
+	display:block;
+}
+main h2{
+	text-align:center;
+}
+#content{
+	width:90%;
+	margin:auto;
+	border-style:dashed;
+}
+
+#image{
+	text-align:center;
+}
+#main-nav ul{
+	list-style-type:none;
+	padding:5px;
+}
+#main-nav a{
+	text-decoration:none;
+	background:#F0B8BA;
+	color:#F0E7E7;
+	padding:3px;
+	width:100%;
+	display:block;
+	margin:auto;
+}
+#contact{
+	text-align:center;
+}
+.hidden{
+	display:none;
+}
+#div{
+	text-align:center;
+}
+
+@media(min-width:720px){
+
+body{
+	background:#C0B6BE;
+	font-family:monospace;
+}
+header, nav, footer{
+	background:#D8AEB1;
+	text-align:center;
+	display:block;
+	padding:1px;
+}
+main{
+	background:#F0D7D4;
+	padding:8px;
+	display:block;
+}
+main h2{
+	text-align:center;
+}
+#content{
+	width:90%;
+	margin:auto;
+	border-radius:5px;
+}
+#image{
+	text-align:center;
+}
+img{
+	border-style:dashed;
+}
+/*nav*/
+#main-nav ul{
+	list-style-type:none;
+}
+#main-nav a{
+	display:inline;
+	text-decoration:none;
+	background:#C0B6BE;
+	color:#F0E7E7;
+	padding:5px;
+	border-radius:10px;
+}
+#main-nav li{
+	display:inline;
+	text-decoration:none;
+	padding:5px;
+	border-radius:10px;
+}
+#main-nav a:hover{
+	background:#F0E7E7;
+	color:#F0B8BA;
+	padding:5px;
+	border-radius:10px;
+}
+
+#contact{
+	text-align:center;
+}
+#viewless{
+	text-decoration:none;
+	background:#C0B6BE;
+	color:#F0E7E7;
+	border-radius:10px;
+	padding:3px;
+}
+#viewless:hover{
+	background:#D8AEB1;
+	color:#F0E7E7;
+	border-radius:10px;
+	padding:3px;
+}
+/*quiz*/
+#first, #second, #third, #fourth{
+	padding:5px;
+	margin:auto;
+}
+.slide{
+	display:none;
+}
+#show{
+	text-align:center;
+}
